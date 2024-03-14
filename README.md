@@ -10,7 +10,7 @@ For instance, the entirety of the text you are currently reading has been rephra
 - Windows operating system (Will add for MacOS soon)
 - AutoHotKey software  
 - SpringBoot application from this repo (to be eliminated in the future)
-- In order for the SpringBoot Integration App to be authenticated by the ChatGPT API, it is required to configure the ChatGPT authentication key as an environment variable "spring.ai.openai.api-key". Further information is provided following sections.
+- In order for the SpringBoot Integration App to be authenticated by the ChatGPT API, it is required to configure the ChatGPT authentication key as an environment variable "spring.ai.openai.api-key". Additional details will be provided in the subsequent sections.
 
 # How to run or setup
 1) Begin by installing the AutoHotKey software (https://www.autohotkey.com/) on your Windows system.
