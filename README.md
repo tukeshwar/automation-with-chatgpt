@@ -40,7 +40,7 @@ For instance, the entirety of the text you are currently reading has been rephra
   
  Please ensure that the environment variable is set accordingly. You can use below command on windows cmd  
      ```
-     set spring.ai.openai.api-key=<your generate OpenAI authentication token here>
+     set spring.ai.openai.api-key=<your generated OpenAI authentication token here>
      ```
       
   Then run below cammand to start SrpingBoot prject  
