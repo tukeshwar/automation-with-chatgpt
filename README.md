@@ -10,7 +10,7 @@ For instance, the entirety of the text you are currently reading has been rephra
 - Windows operating system (Will add for MacOS soon)
 - AutoHotKey software  
 - SpringBoot application from this repo (to be eliminated in the future)
-- In order for the SpringBoot Integration App to be authenticated by the ChatGPT API, it is required to configure the ChatGPT authentication key as an environment variable "spring.ai.openai.api-key". Further information is provided following steps.
+- In order for the SpringBoot Integration App to be authenticated by the ChatGPT API, it is required to configure the ChatGPT authentication key as an environment variable "spring.ai.openai.api-key". Further information is provided following sections.
 
 # How to run or setup
 1) Begin by installing the AutoHotKey software (https://www.autohotkey.com/) on your Windows system.
@@ -21,7 +21,7 @@ For instance, the entirety of the text you are currently reading has been rephra
 6) If needed, revert back to the original text by pressing CTRL+Z (undo).
 
 # Key Mappings
-  F3 - Please rephrase the selected text in a professional manner.
+  F3 - rephrase the selected text in a professional manner.
 
 # Caution 
   This will overwrite your current clipboard contents. 
@@ -29,7 +29,7 @@ For instance, the entirety of the text you are currently reading has been rephra
 
 #  Current flow 
       App's text editor > AutoHotKey > SprintBoot Integration >  ChatGPT APIs
-# Future Flow
+# Planned Flow
       App's text editor > AutoHotKey >  ChatGPT APIs
 
 # Note
@@ -37,18 +37,23 @@ For instance, the entirety of the text you are currently reading has been rephra
   
 # Starting SpringBoot App
   A pre-built standalone executable JAR file can be found at the specified location "target/myai-0.0.1-SNAPSHOT.jar". 
-  Please ensure that the environment variable is set accordingly. You can use below command on windows cmd
-      set spring.ai.openai.api-key=<your generate OpenAI authentication token here>
-  Then run below cammand to start SrpingBoot prject
-      java -jar .\target\myai-0.0.1-SNAPSHOT.jar
-  Java Enviroment used $ java -version
-                          openjdk version "17.0.10" 2024-01-16
-                          OpenJDK Runtime Environment Temurin-17.0.10+7 (build 17.0.10+7)
-                          OpenJDK 64-Bit Server VM Temurin-17.0.10+7 (build 17.0.10+7, mixed mode)
+  
+  Please ensure that the environment variable is set accordingly. You can use below command on windows cmd  
+      > set spring.ai.openai.api-key=<your generate OpenAI authentication token here>
+      
+  Then run below cammand to start SrpingBoot prject  
+      > java -jar .\target\myai-0.0.1-SNAPSHOT.jar
+      
+  Java Enviroment used $ java -version  
+                       -   openjdk version "17.0.10" 2024-01-16  
+                       -  OpenJDK Runtime Environment Temurin-17.0.10+7 (build 17.0.10+7)  
+                       -  OpenJDK 64-Bit Server VM Temurin-17.0.10+7 (build 17.0.10+7, mixed mode  
+                          
   In the event of encountering a Java version error, it is recommended to regenerate the JAR file utilizing either Maven or Gradle.
 
 # OpenAI Signup & token
   Create an account at OpenAI Signup : https://platform.openai.com/signup
+  
   Please generate the token for storage as an environment variable "spring.ai.openai.api-key" from this   location - https://platform.openai.com/account/api-keys
   
 # Facing issue
