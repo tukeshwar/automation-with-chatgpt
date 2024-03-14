@@ -38,11 +38,15 @@ For instance, the entirety of the text you are currently reading has been rephra
 # Starting SpringBoot App
   A pre-built standalone executable JAR file can be found at the specified location "target/myai-0.0.1-SNAPSHOT.jar". 
   
-  Please ensure that the environment variable is set accordingly. You can use below command on windows cmd  
-      > set spring.ai.openai.api-key=<your generate OpenAI authentication token here>
+ Please ensure that the environment variable is set accordingly. You can use below command on windows cmd  
+     ```
+     set spring.ai.openai.api-key=<your generate OpenAI authentication token here>
+     ```
       
   Then run below cammand to start SrpingBoot prject  
-      > java -jar .\target\myai-0.0.1-SNAPSHOT.jar
+     ``` 
+     java -jar .\target\myai-0.0.1-SNAPSHOT.jar
+     ```
       
   Java Enviroment used $ java -version  
                        -   openjdk version "17.0.10" 2024-01-16  
