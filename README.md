@@ -1,5 +1,9 @@
 # automation-with-chatgpt
 
+The goal of this project is to offer ordinary users the opportunity to utilize AI technology without incurring any expenses.
+While there are free alternatives available, they often require users to rely on different applications. 
+This platform aims to allow users to seamlessly utilize AI capabilities across various applications, eliminating the need for manual copy and paste actions.
+
 The objective of this project is to automat the work through the implementation of ChatGPT Integration. 
 This is achieved by integrating ChatGPT with AutoHotKey (https://www.autohotkey.com/) to facilitate the triggering of integration flows through keyboard shortcuts.
 
